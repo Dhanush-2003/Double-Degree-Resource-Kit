@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Laurier Double-Degree BookMap",
+    "description": "Stores and holds useful bookmarks for Laurier Double-Degree students",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "bookmap.html"
+    },
+    "permissions": ["activeTab"]
+}

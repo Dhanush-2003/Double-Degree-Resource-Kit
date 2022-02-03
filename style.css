@@ -1,0 +1,197 @@
+body {
+  font-size: 14px;
+  width: 600px;
+  min-height: 5000px;
+  margin: 10px auto;
+  padding: 0;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  margin: 0;
+  background-color: #ffd014;
+  background-image: conic-gradient(#ffd014, #805280);
+  background-image: linear-gradient(#ffd014, #805280);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+img {
+  width: 50px;
+}
+
+.bookmark {
+  background-color: rgb(182, 208, 233);
+  height: 500px;
+}
+
+.title-section {
+  align-items: center;
+  border-bottom: 0.5px solid #dadada;
+}
+
+.content {
+  padding: 0 22px;
+}
+
+.double-degree-logo {
+  padding: 16px;
+}
+.logo-icon {
+  vertical-align: text-bottom;
+  margin-right: 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
+}
+
+.specific-website {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+
+.specific-website:hover {
+  opacity: 0.4;
+}
+
+.bohr-icon {
+  width: 30px;
+  height: auto;
+  padding-right: 45px;
+}
+
+.gradescope-icon {
+  width: 70px;
+  height: 23px;
+  padding-top: 5px;
+  padding-right: 40px;
+}
+
+.loris-icon {
+  width: 30px;
+  height: auto;
+}
+
+.learningspace-icon {
+  width: 90px;
+  height: auto;
+  padding-right: 30px;
+}
+
+.pearson-icon {
+  width: 30px;
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.tophat-icon {
+  width: 35px;
+  height: auto;
+}
+
+.webwork-icon {
+  width: 50px;
+  height: 32px;
+  padding-top: 6px;
+  padding-right: 15px;
+}
+
+.iclicker-icon {
+  width: 55px;
+  height: 55px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hackerrank-icon {
+  width: 50px;
+  height: auto;
+  padding-top: 15px;
+}
+
+.connect-icon {
+  width: 60px;
+  height: 25px;
+  left: 50px;
+}
+
+.button {
+  padding: 15px 10px;
+  padding-top: 12px;
+  font-size: 26px;
+  text-align: center;
+  bottom: 150px;
+  margin: 0;
+  position : absolute;
+  top: 60%;
+  left: 25%;
+
+  
+  cursor: pointer;
+  outline-style: groove;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+
+  
+}
+
+.button2 {
+  padding: 15px 10px;
+  padding-top: 12px;
+  font-size: 26px;
+  text-align: center;
+  bottom: 150px;
+  margin: 0;
+  position : absolute;
+  top: 60%;
+  left: 5%;
+
+  
+  cursor: pointer;
+  outline-style: groove;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+
+.game {
+  padding: 95px 10px;
+  padding-top: 10px;
+  font-size: 26px;
+  text-align: center;
+  margin: 20px;
+  margin-right: auto;
+  right: -20%;
+  position : absolute;
+  top: 60%;
+  left: 5%;
+}
